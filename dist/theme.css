@@ -7,11 +7,10 @@
     white: #d9ccea
     blue: #463b7a
 */
+
 body {
     background-image:url(res/bg.png);
-};
-
-
+}
 .text-primary {
     color: #d9ccea !important;
 }
@@ -22,5 +21,19 @@ body {
     background-color: #307c47 !important;
 }
 .bg-secondary {
-    background-color: #6b3a87 !important;
+    background-color: #2e323a !important;
 }
+
+.bg-dark {
+    background-color: #52405e !important;
+}
+
+.btn-primary {
+    background-color: #307c47 !important;
+    border-color: #307c47 !important;
+}
+
+.table-dark {
+    background-color:#41c067;
+}
+
