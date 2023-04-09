@@ -8,9 +8,7 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
         <link rel="stylesheet" href="theme.css" >
         <script src="script.js"></script>
-        <style>
-          
-        </style>
+
     </head>
     <body class="bg-secondary text-primary">
         
@@ -105,7 +103,7 @@
 -->
 
 
-    <div class="card bg-dark"> <div class="card-body" style="text-align:center">Plants vs Zombies and all associated Images and characters are property of Electronic Arts, which are in not affiliated with this website and its contents</div></div>
+    <?php include $_SERVER['DOCUMENT_ROOT']."/modules/footer.php"; ?>
 
       </div>
 
