@@ -1,8 +1,0 @@
-Battle for Neighborville Website v1.0
------------------------
-Lookup player stats
-Website meta embeds for player stats
-Translatable (available in english & german)
-Mobile ready
-Extendable tabs
-
