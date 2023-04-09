@@ -14,7 +14,7 @@
     </head>
     <body class="bg-secondary text-primary">
         
-     <?php include '/header.php'?>
+     <?php include '/header.php';?>
 
       <div class="container">
         <br>
