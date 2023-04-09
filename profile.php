@@ -14,7 +14,7 @@
     <body class="bg-secondary text-primary">
         
     <!--include the modular header.php as a html file--->
-    <?php include $_SERVER['DOCUMENT_ROOT']./header.php"?>
+    <?php include $_SERVER['DOCUMENT_ROOT']."/header.php"?>
 
     <div class="container">
         <br>
