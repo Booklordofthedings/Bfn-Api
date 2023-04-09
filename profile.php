@@ -13,7 +13,8 @@
     </head>
     <body class="bg-secondary text-primary">
         
-    <?php include '/header.php';?>
+    <!--include the modular header.php as a html file--->
+    <?php include "/header.php"?>
 
     <div class="container">
         <br>
