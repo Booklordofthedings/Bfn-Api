@@ -14,7 +14,7 @@
     </head>
     <body class="bg-secondary text-primary">
         
-     <?php include "/header.php"; ?>
+     <?php include $_SERVER['DOCUMENT_ROOT']."/header.php"; ?>
 
       <div class="container">
         <br>
