@@ -20,7 +20,10 @@
         <div class="card bg-dark">
             <div class="card-header"> <h3>About this website<h3> </div>
             <div class="card-body">
-                
+                <?php
+                    echo $p;
+                    echo $n; 
+                ?>
             </div>
         </div>
     </div>
