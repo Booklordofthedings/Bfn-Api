@@ -15,6 +15,8 @@
     <!--include the modular header.php as a html file--->
     <?php include $_SERVER['DOCUMENT_ROOT']."/header.php"?>
 
+    <?php include $_SERVER['DOCUMENT_ROOT']."/modules/searchbar.php"; ?>
+
     <div class="container">
         <br>
         <div class="card bg-dark">

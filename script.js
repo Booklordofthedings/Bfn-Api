@@ -4,11 +4,10 @@ function RemoveChangelog() {
     test.parentNode.removeChild(test);
 }
 
-//Edit the bootstrap selector text on select
+//Retrieve data from the form and redirect to the page
 function EditSelector(event) {
-    var selector = document.getElementById("SearchDropdown");
-    var content = event.target.innerHTML;
-    if(content != "Pc" && content != "X-Box" && content != "Playstation")
-     return;
-    selector.innerHTML = event.target.innerHTML;
+    event.preventDefault();
+    var platform = document.getElementById("SearchSelector").value;
+    var name = document.getElementById("SearchBar").value;
+    window.location.replace("https://electric-sli.de/p/" + platform + "/" + name);
 }
