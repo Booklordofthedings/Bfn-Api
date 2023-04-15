@@ -41,26 +41,8 @@
           </div>
         </div>
 
-        <div class="row">
-          <div class="col-12">
-            <div class="jumbotron bg-dark">
-              <h1 class="display-4">Search Your Stats</h1>
-              <p class="lead"><div class="input-group">
-                <div class="input-group-prepend">
-                  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">Platform</button>
-                  <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">Pc</a>
-                    <a class="dropdown-item" href="#">X-Box</a>
-                    <a class="dropdown-item" href="#">Playstation</a>
-                    <div role="separator" class="dropdown-divider"></div>
-                    <a class="dropdown-item disabled" disabled href="#">Nintendo-Switch is not supported</a>
-                  </div>
-                </div>
-                <input type="text" class="form-control" aria-label="Text input with dropdown button">
-              </div></p>              
-            </div>
-          </div>
-        </div>
+      <?php include $_SERVER['DOCUMENT_ROOT']."/modules/searchbar.php"; ?>
+       
 <!--
         <div class="row">
           <div class="col-12">
