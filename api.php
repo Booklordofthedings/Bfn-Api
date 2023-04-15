@@ -2,7 +2,7 @@
 require_once("../secret.php");
 //Get the platform and format it 
 $plattform = htmlspecialchars($_GET['p']);
-$plattform = preg_replace('/[^A-Za-z0-9]+/', "", $p);
+$plattform = preg_replace('/[^A-Za-z0-9]+/', "", $plattform);
 $plattform = strtolower($plattform);
 //Check for valid platforms
 if($plattform != "pc" && $plattform != "xbox" && $plattform != "ps4"){
