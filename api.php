@@ -1,5 +1,5 @@
 <?php
-require_once("../secret.php");
+require_once("..\gsecret.php");
 
 //Get the platform and format it 
 $plattform = htmlspecialchar($_GET['p']);
