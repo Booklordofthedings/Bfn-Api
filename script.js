@@ -7,5 +7,8 @@ function RemoveChangelog() {
 //Edit the bootstrap selector text on select
 function EditSelector(event) {
     var selector = document.getElementById("SearchDropdown");
+    var content = event.target.innerHTML;
+    if(content != "Pc" && content != "X-box" && content != "Playstation")
+     return;
     selector.innerHTML = event.target.innerHTML;
 }
