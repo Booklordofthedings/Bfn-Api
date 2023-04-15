@@ -8,7 +8,7 @@ function RemoveChangelog() {
 function EditSelector(event) {
     var selector = document.getElementById("SearchDropdown");
     var content = event.target.innerHTML;
-    if(content != "Pc" && content != "X-box" && content != "Playstation")
+    if(content != "Pc" && content != "X-Box" && content != "Playstation")
      return;
     selector.innerHTML = event.target.innerHTML;
 }
