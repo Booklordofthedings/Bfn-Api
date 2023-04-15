@@ -21,9 +21,8 @@
             <div class="card-header"> <h3>About this website<h3> </div>
             <div class="card-body">
                 <?php
-                    echo "TEst"; 
-                    echo $p;
-                    echo $n; 
+                    echo $_GET['p'];
+                    echo $_GET['n'];; 
                 ?>
             </div>
         </div>
