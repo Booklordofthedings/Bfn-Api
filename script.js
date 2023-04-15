@@ -9,5 +9,5 @@ function EditSelector(event) {
     event.preventDefault();
     var platform = document.getElementById("SearchSelector").value;
     var name = document.getElementById("SearchBar").value;
-    window.location.href("https://electric-sli.de/p/" + platform + "/" + name);
+    window.location.href = "https://electric-sli.de/p/" + platform + "/" + name;
 }
