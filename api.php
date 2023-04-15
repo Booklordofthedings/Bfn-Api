@@ -1,6 +1,4 @@
 <?php
-require_once("../secret.php");
-echo $_surl1;
 //Get the platform and format it 
 $plattform = htmlspecialchar($_GET['p']);
 $plattform = preg_replace('/[^A-Za-z0-9]+/', "", $p);
