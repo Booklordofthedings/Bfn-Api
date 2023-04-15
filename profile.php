@@ -21,6 +21,7 @@
             <div class="card-header"> <h3>About this website<h3> </div>
             <div class="card-body">
                 <?php
+                    echo "TEst"; 
                     echo $p;
                     echo $n; 
                 ?>
