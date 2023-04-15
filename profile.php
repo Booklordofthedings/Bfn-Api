@@ -20,7 +20,7 @@
         <div class="card bg-dark">
             <div class="card-header"> <h3>About this website<h3> </div>
             <div class="card-body">
-                <?php include $_SERVER['DOCUMENT_ROOT']."api.php"; ?>
+                <?php include $_SERVER['DOCUMENT_ROOT']."/api.php"; ?>
             </div>
         </div>
     </div>
