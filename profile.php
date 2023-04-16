@@ -15,10 +15,13 @@
     <!--include the modular header.php as a html file--->
     <?php include $_SERVER['DOCUMENT_ROOT']."/header.php"?>
 
-    <?php include $_SERVER['DOCUMENT_ROOT']."/modules/searchbar.php"; ?>
 
     <div class="container">
         <br>
+
+    <?php include $_SERVER['DOCUMENT_ROOT']."/modules/searchbar.php"; ?>
+
+
         <div class="card bg-dark">
             <div class="card-header"> <h3>About this website<h3> </div>
             <div class="card-body">
