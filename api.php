@@ -17,6 +17,8 @@ $playerName = htmlspecialchars($_GET['n']);
     The verification would need to be able to work for xbox. ps4 and pc name restrictions
 */
 
+echo "Player: {$playerName} on {$plattform} <br>";
+
 // $p Platform
 // $n Player Name
 

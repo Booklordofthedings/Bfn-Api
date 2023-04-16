@@ -8,6 +8,8 @@ function RemoveChangelog() {
 function EditSelector(event) {
     event.preventDefault();
     var platform = document.getElementById("SearchSelector").value;
+    platform = encodeURIComponent(platform);
     var name = document.getElementById("SearchBar").value;
+    name = encodeURIComponent(name);
     window.location.href = "https://electric-sli.de/p/" + platform + "/" + name;
 }
