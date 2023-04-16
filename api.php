@@ -2,7 +2,7 @@
 require_once("../secret.php");
 //Get the platform and format it 
 $plattform = htmlspecialchars($_GET['p']);
-$plattform = preg_replace('/[^A-Za-z0-9]+/', "", $plattform);
+$plattform = urlencode($plattform);
 $plattform = strtolower($plattform);
 //Check for valid platforms
 if($plattform != "pc" && $plattform != "xbox" && $plattform != "ps4"){
@@ -12,6 +12,7 @@ if($plattform != "pc" && $plattform != "xbox" && $plattform != "ps4"){
 }
 
 $playerName = htmlspecialchars($_GET['n']);
+$playerName = urlencode($playerName);
 //This could be verified, but I do not think its actually exploitable
 /*
     The verification would need to be able to work for xbox. ps4 and pc name restrictions
