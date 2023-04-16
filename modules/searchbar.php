@@ -5,10 +5,10 @@
             <form class="input-group" onsubmit="EditSelector(event)">
                 <div class="input-group-prepend">
                 <select class="btn btn-outline-secondary text-light btn-primary" id="SearchSelector">
-                        <option selected>Pc</option>
-                        <option value="1">Xbox</option>
-                        <option value="2">Playstation</option>
-                        <option value="3" disabled>Switch not supported</option>
+                        <option value="pc" selected>Pc</option>
+                        <option value="xbox">Xbox</option>
+                        <option value="ps4">Playstation</option>
+                        <option disabled>Switch not supported</option>
                     </select>
                 </div>
                 <input type="text" class="form-control" id="SearchBar">
