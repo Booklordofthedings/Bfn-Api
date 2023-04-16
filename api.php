@@ -25,6 +25,7 @@ echo "Player: {$playerName} on {$plattform} <br>";
 $ch = curl_init();
 
 $curl_name = rawurlencode($playerName);
+echo "Encoded Name: {$curl_name} <br>";
 $curl_plat = rawurlencode($plattform);
 
 curl_setopt($ch, CURLOPT_URL, "{$s_url1}{$curl_plat}{$s_url2}{$curl_name}{$s_url3}");
